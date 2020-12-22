@@ -1,6 +1,7 @@
 # AMessageThrottle
 消息截流
 
+```
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -20,5 +21,6 @@
     
     NSLog(@"---currentTime:%f",[[NSDate date] timeIntervalSince1970]);
 }
-
-  目前只能对不含参数的方法截流
+```
+  
+!!!目前只能对不含参数的方法截流
