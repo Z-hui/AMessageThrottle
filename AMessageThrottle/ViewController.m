@@ -1,5 +1,19 @@
-# AMessageThrottle
-消息截流
+//
+//  ViewController.m
+//  AMessageThrottle
+//
+//  Created by DoZhui on 2020/12/22.
+//  Copyright © 2020 DoZhui. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "AMessageThrottle.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,4 +35,5 @@
     NSLog(@"---currentTime:%f",[[NSDate date] timeIntervalSince1970]);
 }
 
-  目前只能对不含参数的方法截流
+
+@end
