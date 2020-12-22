@@ -24,3 +24,6 @@
 ```
   
 !!!目前只能对不含参数的方法节流
+
+只为验证消息截流实现方式
+其他实现方案：https://github.com/yulingtianxia/MessageThrottle
